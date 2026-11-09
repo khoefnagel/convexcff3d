@@ -1,0 +1,1 @@
+../../common/clean_theta_case.sh

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 36 0 1 0 1" Origin="0 0 0" Spacing="1 1 1" Direction="1 0 0 0 1 0 0 0 1">
+  <Piece Extent="0 36 0 1 0 1">
+    <PointData>
+    </PointData>
+    <CellData Scalars="rho">
+      <DataArray type="Float64" Name="rho" format="binary" RangeMin="0.9999999999897918" RangeMax="0.9999999999911051">
+        AQAAAACAAAAgAQAAWQAAAA==eF47eujf////39ubH4HQ8vshNNdxCO0Klb86A0Lfg9IP0OhHUPoplH4Gpe9A6VtQ+i6Uvgmlr0PpG2j0VTR16ObDzH2OJv8Rzf5HaPQLKO20gzgaAF2i6f8=
+      </DataArray>
+      <DataArray type="Float64" Name="u" NumberOfComponents="2" format="binary" RangeMin="1.8761019556043556e-06" RangeMax="0.03302733333373249">
+        AQAAAACAAABAAgAAogEAAA==eF7z1mFkaPDSszVfLZr59cUC+9UHGRgYFijbRkD5tsuA/CkKe5nWQ/iPNzEA1SvZzoPyy7YC+W5KtnpQ9d1/gOobltn0bHZ6dbpyv13pAyCfocXm6DGdb6vrNO315BiB8jv3aCy6t7A22cleTQDId9ix50/t9JqN/r7293cClU+4sOfYglduypOC7W3ugNxzeY+s8O2seR/C7WefB5l/aQ9TtLaW1+Fo+5ucQP0bru9J7HnRosYVb78ILP9oT6xi/96ZjxLsn74H8hOe7skzzG6z+JVob6EKVK/was+uSTxz359Osj+qBOS/eLlnS2YZ4/7wZPvcCJB57/bcPrdq87K5yfbntgD1y3yA86UNgPISr/fUQtWfZgTyfzzb82gyxLysNCD/w/09l4wh9iWAzH9wc4++CsQ9LVEg/r09jVMh7mXdCzT/xoM9QekQ/0z0A8pfuLtnnyzEv/eMgfyC23vuLYeEx6NvoPC8tke8GRJem38CuQ7H9rQvhITnNFD8ORzcc+gsJLzVweG9ck/FZ09wfDBAwa19kPiilA8ApEvrfQ==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.8761019556e-06
+          </Value>
+          <Value index="1">
+            0.033027333334
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float64" Name="V" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAAAgAQAAHAAAAA==eF5jYCASHC+UOV64xx7C+TB0aRR/EAYAtz8jdw==
+      </DataArray>
+      <DataArray type="Float64" Name="c" NumberOfComponents="2" format="binary" RangeMin="0.7071067811865476" RangeMax="35.503520952153465">
+        AQAAAACAAABAAgAAfwAAAA==eF5dyU0KglAYheE7aCgOmggigoSISORP5TW1e1uSraAVtKZmbkNwEw6lifK9Z3J4eJX6bzJK/AIfrLQDHze/g3EIRg/dh0M4gk9wDCdwCmfwGb5If3K4gEu4gq/wDb7DNazhBn7ALdzB/eZZf2ftPtGNtLXSP9i+0HevVtlIWQ==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.70710678119
+          </Value>
+          <Value index="1">
+            35.503520952
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

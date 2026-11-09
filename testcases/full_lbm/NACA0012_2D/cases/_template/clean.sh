@@ -1,0 +1,1 @@
+../../common/clean_alpha_case.sh

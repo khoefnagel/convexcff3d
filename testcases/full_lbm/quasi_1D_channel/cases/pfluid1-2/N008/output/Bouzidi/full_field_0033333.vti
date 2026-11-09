@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 19 0 1 0 1" Origin="0 0 0" Spacing="1 1 1" Direction="1 0 0 0 1 0 0 0 1">
+  <Piece Extent="0 19 0 1 0 1">
+    <PointData>
+    </PointData>
+    <CellData Scalars="rho">
+      <DataArray type="Float64" Name="rho" format="binary" RangeMin="0.9999999999964553" RangeMax="0.999999999996463">
+        AQAAAACAAACYAAAAOAAAAA==eF4rbv4PBO/t86B0EJT2hNIeUNoLSvtD6UAoHYumH0ZXQ+k+KF0LpVuhdBuULkUTT4HSAF02c64=
+      </DataArray>
+      <DataArray type="Float64" Name="u" NumberOfComponents="2" format="binary" RangeMin="1.5199999999507578e-06" RangeMax="0.003104986939848779">
+        AQAAAACAAAAwAQAA8QAAAA==eF5zTGZgYGjYuadgVp/2wvxM+44AIH/DlT1aPKcX1P5Ks3dPA/Iddu2J6GRMMBNIsl8SCeQzLN8z+f8Z3WmJofYxdiD+ARu1suOtWe3S9gxQoCk1bU1kw067uVDzFPRVf6ZYBdprlQD5F+7uCVD4GCDfEmuvXgPkPzi/J84tpf94YZL9S2+Qew7vsRFfaRi1JtnePBVkWteeHKi8Ndi9K/fMVIbo3wQy/8AWm1xdiPkw+xmjIPbHxoJ4FXs+10Hc9ykbpH73nsrfEPcvdwLyFS7u+dsO8d8ukH8ULuyZzA3x/4cQkHuv7rGGhg8AIR9tCw==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.52e-06
+          </Value>
+          <Value index="1">
+            0.0031049869398
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float64" Name="V" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAACYAAAAFgAAAA==eF5jYCAFPLCH0B/IpGH6CQMACZQKiA==
+      </DataArray>
+      <DataArray type="Float64" Name="c" NumberOfComponents="2" format="binary" RangeMin="0.7071067811865476" RangeMax="18.506755523321747">
+        AQAAAACAAAAwAQAARgAAAA==eF5jYACBB/YMKPQPND6LAyqfB40vhMYXR+NLofHl0PiKaHxlNL4qGl8dja+Jym/QQpPXRePro6k3QOMbovGN4HwAWdcgJw==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.70710678119
+          </Value>
+          <Value index="1">
+            18.506755523
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

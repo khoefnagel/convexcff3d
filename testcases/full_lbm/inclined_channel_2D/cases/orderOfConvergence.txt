@@ -1,0 +1,51 @@
+Observed Order of Convergence of the L1-norm for all cases:
+Chen, theta 10 deg: 1.14
+Chen, theta 20 deg: 1.14
+Chen, theta 30 deg: 1.15
+Chen, theta 40 deg: 1.16
+Chen, theta 45 deg: 1.18
+CFF, theta 10 deg: 2.20
+CFF, theta 20 deg: 2.21
+CFF, theta 30 deg: 2.23
+CFF, theta 40 deg: 2.21
+CFF, theta 45 deg: 2.20
+Bouzidi, theta 10 deg: 1.93
+Bouzidi, theta 20 deg: 2.03
+Bouzidi, theta 30 deg: 2.06
+Bouzidi, theta 40 deg: 1.74
+Bouzidi, theta 45 deg: 1.82
+
+Observed Order of Convergence of the L2-norm for all cases:
+Chen, theta 10 deg: 1.17
+Chen, theta 20 deg: 1.16
+Chen, theta 30 deg: 1.18
+Chen, theta 40 deg: 1.19
+Chen, theta 45 deg: 1.21
+CFF, theta 10 deg: 2.22
+CFF, theta 20 deg: 2.24
+CFF, theta 30 deg: 2.25
+CFF, theta 40 deg: 2.24
+CFF, theta 45 deg: 2.22
+Bouzidi, theta 10 deg: 1.94
+Bouzidi, theta 20 deg: 2.06
+Bouzidi, theta 30 deg: 2.09
+Bouzidi, theta 40 deg: 1.53
+Bouzidi, theta 45 deg: 1.85
+
+Observed Order of Convergence of the Linf-norm for all cases:
+Chen, theta 10 deg: 1.21
+Chen, theta 20 deg: 1.20
+Chen, theta 30 deg: 1.21
+Chen, theta 40 deg: 1.24
+Chen, theta 45 deg: 1.27
+CFF, theta 10 deg: 2.26
+CFF, theta 20 deg: 2.28
+CFF, theta 30 deg: 2.30
+CFF, theta 40 deg: 2.28
+CFF, theta 45 deg: 2.29
+Bouzidi, theta 10 deg: 0.88
+Bouzidi, theta 20 deg: 2.08
+Bouzidi, theta 30 deg: 2.08
+Bouzidi, theta 40 deg: 0.44
+Bouzidi, theta 45 deg: 1.94
+

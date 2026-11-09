@@ -1,0 +1,1 @@
+../../common/run_alpha_case.sh

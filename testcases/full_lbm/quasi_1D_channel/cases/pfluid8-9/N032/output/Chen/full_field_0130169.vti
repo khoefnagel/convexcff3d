@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 43 0 1 0 1" Origin="0 0 0" Spacing="1 1 1" Direction="1 0 0 0 1 0 0 0 1">
+  <Piece Extent="0 43 0 1 0 1">
+    <PointData>
+    </PointData>
+    <CellData Scalars="rho">
+      <DataArray type="Float64" Name="rho" format="binary" RangeMin="0.999999999986948" RangeMax="0.999999999988894">
+        AQAAAACAAABYAQAAdAAAAA==eF5ryfj3////9/YMiRD6XhqEPgOlN2ZD6GMmUHEofQFKP4TSz6D0Byj9H0rzmkJoLjRaAEqLQWlBKC0NpVWhtAyUFkGjlaC0MpRWh9JqaOIaaPJ6UNoQShugqZdH42tBaRUobVcJoeelQ2jLOOw0AG1P9kw=
+      </DataArray>
+      <DataArray type="Float64" Name="u" NumberOfComponents="2" format="binary" RangeMin="5.5681819866615486e-05" RangeMax="0.03254225000080597">
+        AQAAAACAAACwAgAAFgIAAA==eF57OpWRgeGBvi3DnV/bElYusL+uw8jQYKRuq30Xwl+iCuR/V9tbexPCV7MAqs/UsO2/BuFvv8XA0OAfuDfz0G8wf4c1UJ5h2Z4HPoaHawx57dUXgPhz9yiI3FB832hg/+kzkMuwcM8z7+KV8zQd7df8A3IPHNxzz2RiwZ8ST/tnYPmDe1oaNYs7JgbYx1UB9Sec2nP3ZBLrO8kQ+44KIN/h1p6dfb/erQsOt7/vCTL/+J6sLd/0T9tF2V9tA8nvtqnfFHPC6XaMfagykB9wxeb2DMMdoprx9isNQfyrNnP+7/mvOCXB/n0NkD/hlk3/L5nzaTmJ9sdWAvkb7trINFp5Rcom2ettB/IX3LMJ4RYv/LksyX7GT6B1GQ9t4vdsdnbnTLbfIg+UF3hiU5UleMjJJdl+ARvI/Ec2D6cavHkdnmyfPRtk3h2b59kQ+e0GIPddtbm5D6Jfjwtk/yWb67wQ87vzQPybNubNEPvPrADZf9fG7TfEfR93APkH7tlo/4O4X8QMJH/VRm8axH//E0H23bAJWwPx/0NmIF/hks2+dZDwydAC8i9csVHthITfyRJQ+O2yST0MCd+b88HxZTO1HhL+J8DxsXHPWT1I/KybAZRvWGNj5QmJP1YRkH8O23wQh8RvfwjIfdttumMg8f/8PgPDh9Ak258ff0DSFzB8GmaY2Po+gqQfBiho3EUcHwB0Ww3F
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            5.5681819867e-05
+          </Value>
+          <Value index="1">
+            0.032542250001
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float64" Name="V" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAABYAQAAHQAAAA==eF5jYCAOKBwvlDle+MYewvsw8mgU/xMGAH12LEA=
+      </DataArray>
+      <DataArray type="Float64" Name="c" NumberOfComponents="2" format="binary" RangeMin="0.7071067811865476" RangeMax="42.50294107470682">
+        AQAAAACAAACwAgAAiwAAAA==eF5d0U8KglAQgPG3cNnKRQsXQUiESKSpZVk5/rtXJ+g8LTtK4CVcZgov5nsMDD8+ZvWM+b1PadQeYEe0F7Br/ezzcZboHryC17APb+AtHMAhvIP32o8IjuEDnMApnMFH+ATn8Bm+wAV8hW/wHS61RbTfsFTosNTW0/+//p57g3tYWnRYOusv4uxYcQ==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.70710678119
+          </Value>
+          <Value index="1">
+            42.502941075
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

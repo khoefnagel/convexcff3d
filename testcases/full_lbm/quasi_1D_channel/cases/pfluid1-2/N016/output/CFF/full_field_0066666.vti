@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 27 0 1 0 1" Origin="0 0 0" Spacing="1 1 1" Direction="1 0 0 0 1 0 0 0 1">
+  <Piece Extent="0 27 0 1 0 1">
+    <PointData>
+    </PointData>
+    <CellData Scalars="rho">
+      <DataArray type="Float64" Name="rho" format="binary" RangeMin="0.9999999999929589" RangeMax="0.9999999999938612">
+        AQAAAACAAADYAAAATQAAAA==eF7brPwfCN7bn1WC0B+hfGYNCH1TAULP5IDQc6H0Aig9FUp3QulWKJ0HpROhdDiUDoDSHlDaB0q7QWlXKO2Mpi8ZSucrEUcDAMXemdQ=
+      </DataArray>
+      <DataArray type="Float64" Name="u" NumberOfComponents="2" format="binary" RangeMin="0.00013420181410409417" RangeMax="0.03333300000029907">
+        AQAAAACAAACwAQAAKwEAAA==eF7T6GZgaDBT2bv3wcGHrIIL7VMXMjAwRIrvffIUwn87AcgXFrXtvAXhT+sB8q+I2Nbdh/Cn5AP5DAE2bh8hfK1uEL/J5ttXtXMC0xXtGU+C+Kts/m1+oVp50dE+ZD+Qe+CETa+W06bSpwH2/u1AfsNBm5a5D/XmLA+3v/caxD+35+HbnxwG+rH2v9cB+QuO7eHZF7ZAYl+C/bqnQP6Gu3sM/Xle+7sn2bO8Aam/t6dYdcUTW+Nk+2sLgPwTT/YkbTHofdSYbM92EMj/cGOPrgpEXuYcyLxTe9ZD9RudBvIddtkUHoCYXwV2z0ab2vcQ+6uXAvkJV20KoO6TfAvSf84mTxPi/tYDQP6DEzaq2yD+s10F8m+bzZQvEP8zQMGXH5DwoZQPADZqoWA=
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.0001342018141
+          </Value>
+          <Value index="1">
+            0.033333
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float64" Name="V" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAADYAAAAFwAAAA==eF5jYCAFPLCH0B8GiIbZTxgAAES3FAA=
+      </DataArray>
+      <DataArray type="Float64" Name="c" NumberOfComponents="2" format="binary" RangeMin="0.7071067811865476" RangeMax="26.504716561397142">
+        AQAAAACAAACwAQAAWwAAAA==eF5dyTsKgDAURNFXpLSyESwEERERid8k2piluVSXkVJshHenuRxG5NtziWqCTdTO4Bwu4BKu4Bpu4Bbu4B4e4BG22vcEz/ACr/CmHXf8DvZwgA/4/P0C7Q4wFA==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.70710678119
+          </Value>
+          <Value index="1">
+            26.504716561
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

@@ -1,0 +1,1 @@
+../../common/run_theta_case.sh

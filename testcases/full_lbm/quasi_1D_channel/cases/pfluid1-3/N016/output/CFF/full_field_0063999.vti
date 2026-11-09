@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 28 0 1 0 1" Origin="0 0 0" Spacing="1 1 1" Direction="1 0 0 0 1 0 0 0 1">
+  <Piece Extent="0 28 0 1 0 1">
+    <PointData>
+    </PointData>
+    <CellData Scalars="rho">
+      <DataArray type="Float64" Name="rho" format="binary" RangeMin="0.9999999999914553" RangeMax="0.9999999999940735">
+        AQAAAACAAADgAAAATAAAAA==eF7bpPsfCN7b52tB6DN6ELpaH0LHXP4Hpgv4IPxMKJ0BpYugdAOUroPSTWjyCVA6GUqnQGmYueVQuhZKl6GZW44m7qFNHA0A8xagMQ==
+      </DataArray>
+      <DataArray type="Float64" Name="u" NumberOfComponents="2" format="binary" RangeMin="9.436687889079425e-05" RangeMax="0.03199950000032409">
+        AQAAAACAAADAAQAAOAEAAA==eF7rrGVgYJBStn3W9YvbNmmBvflaIP+LpG15H4RvvxnIz5a2Le6H8I9OAvLbxGzVoPIuzxgYUpo6bHfsh/AXgPQzTLdZrVex6NYeCftHM4Bchy02xdt+R3aesrOXbwHyGzbu4V3+bNUSnwD7ywuB/IKrewo+5seJrAm3j28H8j883POl36Do44VY+2XTgXyJJ3vqsyd8nhubaL9nGYj/bE9ZFuf9StNke7MNQH7E8z19jVereQpS7C+eAfIVXu9J1dM9Fcqbah+2Hcj3eLEnRx/Cv7kJyN/wfE9+E0S9Xy+Qv+PRnoWZEPNCQO7reLjnNNS+4F0g9Tf2pE+EuId1GpD/4PIe368Q9wZcBvn3zJ6HKyH++QaSZziyR20/xL9Z/SD+4j3LdSDhwQAFdcsg4UUpHwBEJKds
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            9.4366878891e-05
+          </Value>
+          <Value index="1">
+            0.0319995
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float64" Name="V" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAADgAAAAGwAAAA==eF5jYCAOBISCwFV7CO/DgNEOKO4gDADKChj7
+      </DataArray>
+      <DataArray type="Float64" Name="c" NumberOfComponents="2" format="binary" RangeMin="0.7071067811865476" RangeMax="27.504545078950134">
+        AQAAAACAAADAAQAAZAAAAA==eF5dyTsOQEAYReEplCqNRCEREUHE+12wCdZjPWzKMpRM8ydzTnPz5Sqle1Zl7Atbm2kbdsTHrnPxe7APB3AIR3AMJ3AG53Bh+izhCq7hBm7hTnxff2mPf4BHeIJneBF/CRI3ag==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.70710678119
+          </Value>
+          <Value index="1">
+            27.504545079
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

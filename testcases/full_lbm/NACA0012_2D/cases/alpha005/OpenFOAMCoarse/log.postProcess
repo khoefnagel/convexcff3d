@@ -1,0 +1,143 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : simpleFoam -postProcess -func wallShearStress -noZero -latestTime
+Date   : Aug 14 2026
+Time   : 11:55:08
+Host   : "kaj-ROG-Strix-G16-G615LW-G615LW"
+PID    : 404584
+I/O    : uncollated
+Case   : /home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function static Foam::instantList Foam::timeSelector::select0(Foam::Time&, const Foam::argList&)
+    in file db/Time/timeSelector.C at line 269
+    No time specified or available, selecting 'constant'
+Create mesh for time = constant
+
+
+SIMPLE: Convergence criteria found
+        p: tolerance 1e-07
+        U: tolerance 1e-07
+
+Time = constant
+Reading field p
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : simpleFoam -postProcess
+Date   : Aug 14 2026
+Time   : 11:55:08
+Host   : "kaj-ROG-Strix-G16-G615LW-G615LW"
+PID    : 404585
+I/O    : uncollated
+Case   : /home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: Convergence criteria found
+        p: tolerance 1e-07
+        U: tolerance 1e-07
+
+Time = 0
+Reading field p
+
+--> FOAM Warning : 
+    From function Foam::Field<Type>::Field(const Foam::word&, const Foam::dictionary&, Foam::label) [with Type = double; Foam::label = int]
+    in file /home/kaj/OpenFOAM/OpenFOAM-7/src/OpenFOAM/lnInclude/Field.C at line 232
+    Reading "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/0/p.boundaryField.Inlet" from line 25 to line 26
+    expected keyword 'uniform' or 'nonuniform', assuming deprecated Field format from Foam version 2.0.
+--> FOAM Warning : 
+    From function Foam::Field<Type>::Field(const Foam::word&, const Foam::dictionary&, Foam::label) [with Type = double; Foam::label = int]
+    in file /home/kaj/OpenFOAM/OpenFOAM-7/src/OpenFOAM/lnInclude/Field.C at line 232
+    Reading "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/0/p.boundaryField.Outlet" from line 31 to line 32
+    expected keyword 'uniform' or 'nonuniform', assuming deprecated Field format from Foam version 2.0.
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+No finite volume options present
+--> FOAM Warning : 
+--> FOAM FATAL IO ERROR: 
+error in IOstream "OSHA1stream.sinkFile_" for operation Ostream& operator<<(Ostream&, const word&)
+
+file: OSHA1stream.sinkFile_ at line 0.
+
+    From function virtual bool Foam::IOstream::check(const char*) const
+    in file db/IOstreams/IOstreams/IOstream.C at line 96.
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : foamToVTK -latestTime -noZero
+Date   : Aug 14 2026
+Time   : 11:55:08
+Host   : "kaj-ROG-Strix-G16-G615LW-G615LW"
+PID    : 404587
+I/O    : uncollated
+Case   : /home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From function static Foam::instantList Foam::timeSelector::select0(Foam::Time&, const Foam::argList&)
+    in file db/Time/timeSelector.C at line 269
+    No time specified or available, selecting 'constant'
+Create mesh for time = constant
+
+Time: constant
+
+    Internal  : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/OpenFOAMCoarse_0.vtk"
+    Original cells:36463 points:37308   Additional cells:0  additional points:0
+
+    Patch     : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/Sides/Sides_0.vtk"
+    Patch     : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/Bottom/Bottom_0.vtk"
+    Patch     : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/Outlet/Outlet_0.vtk"
+    Patch     : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/Top/Top_0.vtk"
+    Patch     : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/Inlet/Inlet_0.vtk"
+    Patch     : "/home/kaj/Documents/03_Projects/01_LBM_related/cff3d/testcases/full_lbm/NACA0012_2D/cases/alpha005/OpenFOAMCoarse/VTK/Airfoil/Airfoil_0.vtk"
+End
+

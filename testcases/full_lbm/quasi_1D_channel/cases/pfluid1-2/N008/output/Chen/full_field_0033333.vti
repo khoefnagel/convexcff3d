@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 19 0 1 0 1" Origin="0 0 0" Spacing="1 1 1" Direction="1 0 0 0 1 0 0 0 1">
+  <Piece Extent="0 19 0 1 0 1">
+    <PointData>
+    </PointData>
+    <CellData Scalars="rho">
+      <DataArray type="Float64" Name="rho" format="binary" RangeMin="0.9999999999963073" RangeMax="0.9999999999968832">
+        AQAAAACAAACYAAAAOQAAAA==eF5TnvgfCN7bN0Dpf70QOmwShL7fB6G16iC0OpSWhdLSUFoYSktBaRkorQql1aD0jX7iaABnr3RS
+      </DataArray>
+      <DataArray type="Float64" Name="u" NumberOfComponents="2" format="binary" RangeMin="1.1587307690918911e-05" RangeMax="0.03333300000017359">
+        AQAAAACAAAAwAQAAugAAAA==eF5jjmRgYNgouZd/4cGHrIIL7W3igHwvbtvkORD+7mQg/x/33itLIHxZRyCfgXmv5SIIf1EskFvDZZsL1f/aASQ/YU+hpF/hY58Xdn9cQPyFNk/br6jyvrSzLwHpVzhgE5OzcPlf5hD7RflAfsNqm9Niuytzk6Pts+NB/OV73nYe3j/pRqz9xmIQf41NtzhE3jUcxN9qU5MF0T8Tqn95P8R8g2AQf4lNyUGI/QxQELgJ4j5K+QC2j2Pa
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.1587307691e-05
+          </Value>
+          <Value index="1">
+            0.033333
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float64" Name="V" format="binary" RangeMin="0" RangeMax="1">
+        AQAAAACAAACYAAAAFgAAAA==eF5jYCAFPLCH0B/IpGH6CQMACZQKiA==
+      </DataArray>
+      <DataArray type="Float64" Name="c" NumberOfComponents="2" format="binary" RangeMin="0.7071067811865476" RangeMax="18.506755523321747">
+        AQAAAACAAAAwAQAARgAAAA==eF5jYACBB/YMKPQPND6LAyqfB40vhMYXR+NLofHl0PiKaHxlNL4qGl8dja+Jym/QQpPXRePro6k3QOMbovGN4HwAWdcgJw==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.70710678119
+          </Value>
+          <Value index="1">
+            18.506755523
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>
